@@ -1,0 +1,14 @@
+C:\Development\Development\Projects\Welsby.Surveys\Welsby.Surveys.BizDbRunner\bin\Debug\netcoreapp2.1\Welsby.Surveys.BizDbAccess.deps.json
+C:\Development\Development\Projects\Welsby.Surveys\Welsby.Surveys.BizDbRunner\bin\Debug\netcoreapp2.1\Welsby.Surveys.BizDbAccess.dll
+C:\Development\Development\Projects\Welsby.Surveys\Welsby.Surveys.BizDbRunner\bin\Debug\netcoreapp2.1\Welsby.Surveys.BizDbAccess.pdb
+C:\Development\Development\Projects\Welsby.Surveys\Welsby.Surveys.BizDbRunner\bin\Debug\netcoreapp2.1\Welsby.Surveys.DataLayer.dll
+C:\Development\Development\Projects\Welsby.Surveys\Welsby.Surveys.BizDbRunner\bin\Debug\netcoreapp2.1\Welsby.Surveys.GenericInterfaces.dll
+C:\Development\Development\Projects\Welsby.Surveys\Welsby.Surveys.BizDbRunner\bin\Debug\netcoreapp2.1\Welsby.Surveys.DataLayer.pdb
+C:\Development\Development\Projects\Welsby.Surveys\Welsby.Surveys.BizDbRunner\bin\Debug\netcoreapp2.1\Welsby.Surveys.GenericInterfaces.pdb
+C:\Development\Development\Projects\Welsby.Surveys\Welsby.Surveys.BizDbRunner\obj\Debug\netcoreapp2.1\Welsby.Surveys.BizDbAccess.csprojAssemblyReference.cache
+C:\Development\Development\Projects\Welsby.Surveys\Welsby.Surveys.BizDbRunner\obj\Debug\netcoreapp2.1\Welsby.Surveys.BizDbAccess.csproj.CoreCompileInputs.cache
+C:\Development\Development\Projects\Welsby.Surveys\Welsby.Surveys.BizDbRunner\obj\Debug\netcoreapp2.1\Welsby.Surveys.BizDbAccess.AssemblyInfoInputs.cache
+C:\Development\Development\Projects\Welsby.Surveys\Welsby.Surveys.BizDbRunner\obj\Debug\netcoreapp2.1\Welsby.Surveys.BizDbAccess.AssemblyInfo.cs
+C:\Development\Development\Projects\Welsby.Surveys\Welsby.Surveys.BizDbRunner\obj\Debug\netcoreapp2.1\Welsby.Surveys.BizDbAccess.csproj.CopyComplete
+C:\Development\Development\Projects\Welsby.Surveys\Welsby.Surveys.BizDbRunner\obj\Debug\netcoreapp2.1\Welsby.Surveys.BizDbAccess.dll
+C:\Development\Development\Projects\Welsby.Surveys\Welsby.Surveys.BizDbRunner\obj\Debug\netcoreapp2.1\Welsby.Surveys.BizDbAccess.pdb

@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.271
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Welsby.Surveys.DataLayer", "Welsby.Surveys.DataLayer\Welsby.Surveys.DataLayer.csproj", "{FF518187-66AD-404C-95A9-B53B21867383}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Welsby.Surveys.Api", "Welsby.Surveys.Api\Welsby.Surveys.Api.csproj", "{333DBC6E-AD7A-41FB-B69D-F821E9E6566A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Welsby.Surveys.BizLogic", "Welsby.Surveys.BizLogic\Welsby.Surveys.BizLogic.csproj", "{4801ACD2-1614-4F5E-957F-EEF804BE7F5A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Welsby.Surveys.BizDbAccess", "Welsby.Surveys.BizDbRunner\Welsby.Surveys.BizDbAccess.csproj", "{2C88712A-6D99-490C-9581-13241B4C3CAD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Welsby.Surveys.ServiceLayer", "Welsby.Surveys.ServiceLayer\Welsby.Surveys.ServiceLayer.csproj", "{458908FD-FC06-4042-9D1D-115183C22F64}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Welsby.Surveys.GenericInterfaces", "Welsby.Surveys.GenericInterfaces\Welsby.Surveys.GenericInterfaces.csproj", "{E2673BEF-8ECF-4331-80B4-341B45CA0138}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FF518187-66AD-404C-95A9-B53B21867383}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF518187-66AD-404C-95A9-B53B21867383}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF518187-66AD-404C-95A9-B53B21867383}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF518187-66AD-404C-95A9-B53B21867383}.Release|Any CPU.Build.0 = Release|Any CPU
+		{333DBC6E-AD7A-41FB-B69D-F821E9E6566A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{333DBC6E-AD7A-41FB-B69D-F821E9E6566A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{333DBC6E-AD7A-41FB-B69D-F821E9E6566A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{333DBC6E-AD7A-41FB-B69D-F821E9E6566A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4801ACD2-1614-4F5E-957F-EEF804BE7F5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4801ACD2-1614-4F5E-957F-EEF804BE7F5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4801ACD2-1614-4F5E-957F-EEF804BE7F5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4801ACD2-1614-4F5E-957F-EEF804BE7F5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C88712A-6D99-490C-9581-13241B4C3CAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C88712A-6D99-490C-9581-13241B4C3CAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C88712A-6D99-490C-9581-13241B4C3CAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C88712A-6D99-490C-9581-13241B4C3CAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{458908FD-FC06-4042-9D1D-115183C22F64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{458908FD-FC06-4042-9D1D-115183C22F64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{458908FD-FC06-4042-9D1D-115183C22F64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{458908FD-FC06-4042-9D1D-115183C22F64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2673BEF-8ECF-4331-80B4-341B45CA0138}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2673BEF-8ECF-4331-80B4-341B45CA0138}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2673BEF-8ECF-4331-80B4-341B45CA0138}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2673BEF-8ECF-4331-80B4-341B45CA0138}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4BAC19CE-F237-4AD8-8705-53D9DC1FC7B7}
+	EndGlobalSection
+EndGlobal

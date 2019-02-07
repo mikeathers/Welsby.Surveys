@@ -1,0 +1,16 @@
+C:\Development\Development\Projects\Welsby.Surveys\Welsby.Surveys.BizLogic\bin\Debug\netcoreapp2.1\Welsby.Surveys.BizLogic.deps.json
+C:\Development\Development\Projects\Welsby.Surveys\Welsby.Surveys.BizLogic\bin\Debug\netcoreapp2.1\Welsby.Surveys.BizLogic.dll
+C:\Development\Development\Projects\Welsby.Surveys\Welsby.Surveys.BizLogic\bin\Debug\netcoreapp2.1\Welsby.Surveys.BizLogic.pdb
+C:\Development\Development\Projects\Welsby.Surveys\Welsby.Surveys.BizLogic\bin\Debug\netcoreapp2.1\Welsby.Surveys.BizDbAccess.dll
+C:\Development\Development\Projects\Welsby.Surveys\Welsby.Surveys.BizLogic\bin\Debug\netcoreapp2.1\Welsby.Surveys.DataLayer.dll
+C:\Development\Development\Projects\Welsby.Surveys\Welsby.Surveys.BizLogic\bin\Debug\netcoreapp2.1\Welsby.Surveys.GenericInterfaces.dll
+C:\Development\Development\Projects\Welsby.Surveys\Welsby.Surveys.BizLogic\bin\Debug\netcoreapp2.1\Welsby.Surveys.BizDbAccess.pdb
+C:\Development\Development\Projects\Welsby.Surveys\Welsby.Surveys.BizLogic\bin\Debug\netcoreapp2.1\Welsby.Surveys.GenericInterfaces.pdb
+C:\Development\Development\Projects\Welsby.Surveys\Welsby.Surveys.BizLogic\bin\Debug\netcoreapp2.1\Welsby.Surveys.DataLayer.pdb
+C:\Development\Development\Projects\Welsby.Surveys\Welsby.Surveys.BizLogic\obj\Debug\netcoreapp2.1\Welsby.Surveys.BizLogic.csprojAssemblyReference.cache
+C:\Development\Development\Projects\Welsby.Surveys\Welsby.Surveys.BizLogic\obj\Debug\netcoreapp2.1\Welsby.Surveys.BizLogic.csproj.CoreCompileInputs.cache
+C:\Development\Development\Projects\Welsby.Surveys\Welsby.Surveys.BizLogic\obj\Debug\netcoreapp2.1\Welsby.Surveys.BizLogic.AssemblyInfoInputs.cache
+C:\Development\Development\Projects\Welsby.Surveys\Welsby.Surveys.BizLogic\obj\Debug\netcoreapp2.1\Welsby.Surveys.BizLogic.AssemblyInfo.cs
+C:\Development\Development\Projects\Welsby.Surveys\Welsby.Surveys.BizLogic\obj\Debug\netcoreapp2.1\Welsby.Surveys.BizLogic.csproj.CopyComplete
+C:\Development\Development\Projects\Welsby.Surveys\Welsby.Surveys.BizLogic\obj\Debug\netcoreapp2.1\Welsby.Surveys.BizLogic.dll
+C:\Development\Development\Projects\Welsby.Surveys\Welsby.Surveys.BizLogic\obj\Debug\netcoreapp2.1\Welsby.Surveys.BizLogic.pdb

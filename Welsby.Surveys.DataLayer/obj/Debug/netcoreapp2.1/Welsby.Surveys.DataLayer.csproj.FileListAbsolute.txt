@@ -1,0 +1,14 @@
+C:\Development\Development\Projects\Welsby.Surveys\Welsby.Surveys.DataLayer\bin\Debug\netcoreapp2.1\Welsby.Surveys.DataLayer.deps.json
+C:\Development\Development\Projects\Welsby.Surveys\Welsby.Surveys.DataLayer\bin\Debug\netcoreapp2.1\Welsby.Surveys.DataLayer.runtimeconfig.json
+C:\Development\Development\Projects\Welsby.Surveys\Welsby.Surveys.DataLayer\bin\Debug\netcoreapp2.1\Welsby.Surveys.DataLayer.runtimeconfig.dev.json
+C:\Development\Development\Projects\Welsby.Surveys\Welsby.Surveys.DataLayer\bin\Debug\netcoreapp2.1\Welsby.Surveys.DataLayer.dll
+C:\Development\Development\Projects\Welsby.Surveys\Welsby.Surveys.DataLayer\bin\Debug\netcoreapp2.1\Welsby.Surveys.DataLayer.pdb
+C:\Development\Development\Projects\Welsby.Surveys\Welsby.Surveys.DataLayer\bin\Debug\netcoreapp2.1\Welsby.Surveys.GenericInterfaces.dll
+C:\Development\Development\Projects\Welsby.Surveys\Welsby.Surveys.DataLayer\bin\Debug\netcoreapp2.1\Welsby.Surveys.GenericInterfaces.pdb
+C:\Development\Development\Projects\Welsby.Surveys\Welsby.Surveys.DataLayer\obj\Debug\netcoreapp2.1\Welsby.Surveys.DataLayer.csprojAssemblyReference.cache
+C:\Development\Development\Projects\Welsby.Surveys\Welsby.Surveys.DataLayer\obj\Debug\netcoreapp2.1\Welsby.Surveys.DataLayer.csproj.CoreCompileInputs.cache
+C:\Development\Development\Projects\Welsby.Surveys\Welsby.Surveys.DataLayer\obj\Debug\netcoreapp2.1\Welsby.Surveys.DataLayer.AssemblyInfoInputs.cache
+C:\Development\Development\Projects\Welsby.Surveys\Welsby.Surveys.DataLayer\obj\Debug\netcoreapp2.1\Welsby.Surveys.DataLayer.AssemblyInfo.cs
+C:\Development\Development\Projects\Welsby.Surveys\Welsby.Surveys.DataLayer\obj\Debug\netcoreapp2.1\Welsby.Surveys.DataLayer.csproj.CopyComplete
+C:\Development\Development\Projects\Welsby.Surveys\Welsby.Surveys.DataLayer\obj\Debug\netcoreapp2.1\Welsby.Surveys.DataLayer.dll
+C:\Development\Development\Projects\Welsby.Surveys\Welsby.Surveys.DataLayer\obj\Debug\netcoreapp2.1\Welsby.Surveys.DataLayer.pdb
