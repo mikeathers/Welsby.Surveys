@@ -8,7 +8,7 @@
 
         private QuestionType() { }
 
-        internal QuestionType(string name)
+        public QuestionType(string name)
         {
             Name = name;
         }

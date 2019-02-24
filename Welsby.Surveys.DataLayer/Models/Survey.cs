@@ -30,11 +30,13 @@ namespace Welsby.Surveys.DataLayer.Models
         public Survey(string name, IEnumerable<QuestionGroup> questionGroups)
         {
             Name = name ?? throw new ArgumentNullException(nameof(name), "A name is needed when creating a new survey.");
+            if (questionGroups == null) throw new ArgumentNullException(nameof(questionGroups), "Atleast 1 question group is needed when creating a survey.");
+
             _questionGroups = new HashSet<QuestionGroup>();
 
             foreach (var questionGroup in questionGroups)
             {
-                AddQuestionGroup(questionGroup.Name, questionGroup.Questions);
+                var result = AddQuestionGroup(questionGroup.Name, questionGroup.Questions);
             }
         }
 

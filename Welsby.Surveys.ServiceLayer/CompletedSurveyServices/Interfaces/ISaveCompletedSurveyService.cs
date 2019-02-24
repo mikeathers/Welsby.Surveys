@@ -1,7 +1,6 @@
 ﻿using System.Collections.Immutable;
 using System.ComponentModel.DataAnnotations;
-using Welsby.Surveys.BizLogic.CompletedSurveys.Dtos;
-using Welsby.Surveys.ServiceLayer.CompletedSurveyServices.Dtos;
+using Welsby.Surveys.Dtos;
 
 namespace Welsby.Surveys.ServiceLayer.CompletedSurveyServices.Interfaces
 {

@@ -35,7 +35,7 @@ namespace Welsby.Surveys.DataLayer.Models
 
         }
 
-        private StatusGenericHandler AddQuestion(CompletedQuestion question, SurveyDbContext context = null)
+        public StatusGenericHandler AddQuestion(CompletedQuestion question, SurveyDbContext context = null)
         {
 
             var status = new StatusGenericHandler();

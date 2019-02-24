@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 using Welsby.Surveys.BizDbAccess.CompletedSurveys;
-using Welsby.Surveys.BizLogic.CompletedSurveys.Dtos;
 using Welsby.Surveys.DataLayer.Models;
+using Welsby.Surveys.Dtos;
 using Welsby.Surveys.GenericInterfaces.GenericInterfaces;
 
 namespace Welsby.Surveys.BizLogic.CompletedSurveys
@@ -63,6 +63,7 @@ namespace Welsby.Surveys.BizLogic.CompletedSurveys
 
             return result;
         }
+
     }
 
 }

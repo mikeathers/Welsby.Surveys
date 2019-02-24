@@ -1,6 +1,5 @@
-﻿
-using Welsby.Surveys.BizLogic.CompletedSurveys.Dtos;
-using Welsby.Surveys.DataLayer.Models;
+﻿using Welsby.Surveys.DataLayer.Models;
+using Welsby.Surveys.Dtos;
 using Welsby.Surveys.GenericInterfaces.GenericInterfaces;
 
 namespace Welsby.Surveys.BizLogic.CompletedSurveys.Interfaces

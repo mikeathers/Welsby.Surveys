@@ -2,8 +2,8 @@
 using System.ComponentModel.DataAnnotations;
 using Welsby.Surveys.DataLayer.Configurations;
 using Welsby.Surveys.DataLayer.Models;
+using Welsby.Surveys.Dtos;
 using Welsby.Surveys.GenericInterfaces.GenericInterfaces;
-using Welsby.Surveys.ServiceLayer.SurveyServices.Dtos;
 using Welsby.Surveys.ServiceLayer.SurveyServices.Interfaces;
 
 namespace Welsby.Surveys.ServiceLayer.SurveyServices
@@ -30,7 +30,7 @@ namespace Welsby.Surveys.ServiceLayer.SurveyServices
                 return Status.Errors;
             }
 
-            var questionGroups = _questionMapper.Map(dto.QuestionGroupsDtos);
+            var questionGroups = _questionMapper.Map(dto.QuestionGroupsDtos, _context);
             Status = survey.AddQuestionGroups(questionGroups, _context);
             if (Status.HasErrors) return Status.Errors;
             _context.SaveChanges();

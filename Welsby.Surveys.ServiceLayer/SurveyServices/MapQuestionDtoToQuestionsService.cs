@@ -2,24 +2,17 @@
 using System.Linq;
 using Welsby.Surveys.DataLayer.Configurations;
 using Welsby.Surveys.DataLayer.Models;
-using Welsby.Surveys.ServiceLayer.SurveyServices.Dtos;
+using Welsby.Surveys.Dtos;
 using Welsby.Surveys.ServiceLayer.SurveyServices.Interfaces;
 
 namespace Welsby.Surveys.ServiceLayer.SurveyServices
 {
     public class MapQuestionDtoToQuestionsService : IMapQuestionDtoToQuestionsService
     {
-        private readonly SurveyDbContext _context;
-
-        public MapQuestionDtoToQuestionsService(SurveyDbContext context)
-        {
-            _context = context;
-        }
-
-        public ICollection<Question> Map(ICollection<QuestionDto> questionsDtos)
+        public ICollection<Question> Map(ICollection<QuestionDto> questionsDtos, SurveyDbContext context)
         {
             var questions = new List<Question>();
-            var types = _context.QuestionTypes;
+            var types = context.QuestionTypes;
             foreach (var q in questionsDtos)
             {
                 var type = types.First(m => m.QuestionTypeId == q.Type);

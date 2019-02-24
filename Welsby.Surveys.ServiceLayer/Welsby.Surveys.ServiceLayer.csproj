@@ -6,6 +6,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Welsby.Surveys.BizLogic\Welsby.Surveys.BizLogic.csproj" />
+    <ProjectReference Include="..\Welsby.Surveys.Dtos\Welsby.Surveys.Dtos.csproj" />
   </ItemGroup>
 
   <ItemGroup>

@@ -16,6 +16,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Welsby.Surveys.Dtos\Welsby.Surveys.Dtos.csproj" />
     <ProjectReference Include="..\Welsby.Surveys.ServiceLayer\Welsby.Surveys.ServiceLayer.csproj" />
   </ItemGroup>
 

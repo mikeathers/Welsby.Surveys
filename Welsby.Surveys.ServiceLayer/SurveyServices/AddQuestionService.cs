@@ -2,8 +2,8 @@
 using System.ComponentModel.DataAnnotations;
 using Welsby.Surveys.DataLayer.Configurations;
 using Welsby.Surveys.DataLayer.Models;
+using Welsby.Surveys.Dtos;
 using Welsby.Surveys.GenericInterfaces.GenericInterfaces;
-using Welsby.Surveys.ServiceLayer.SurveyServices.Dtos;
 using Welsby.Surveys.ServiceLayer.SurveyServices.Interfaces;
 
 namespace Welsby.Surveys.ServiceLayer.SurveyServices
@@ -37,7 +37,22 @@ namespace Welsby.Surveys.ServiceLayer.SurveyServices
                 return Status.Errors;
             }
 
-            var questions = _questionMapper.Map(surveyDto.QuestionsDtos);
+            foreach (var question in surveyDto.QuestionsDtos)
+            {
+                if (question.Type == 0)
+                {
+                    Status.AddError("A question has been submitted with an invalid question type.");
+                    return Status.Errors;
+                }
+
+                if (string.IsNullOrWhiteSpace(question.Text))
+                {
+                    Status.AddError("A question has been submitted without any text.");
+                    return Status.Errors;
+                }
+            }
+
+            var questions = _questionMapper.Map(surveyDto.QuestionsDtos, _context);
             
             Status = survey.AddQuestions(questions, questionGroup, _context);
             if (Status.HasErrors) return Status.Errors;

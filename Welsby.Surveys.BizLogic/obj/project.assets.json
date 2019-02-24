@@ -986,6 +986,19 @@
           "bin/placeholder/Welsby.Surveys.DataLayer.dll": {}
         }
       },
+      "Welsby.Surveys.Dtos/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.1",
+        "dependencies": {
+          "Welsby.Surveys.DataLayer": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Welsby.Surveys.Dtos.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Welsby.Surveys.Dtos.dll": {}
+        }
+      },
       "Welsby.Surveys.GenericInterfaces/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.1",
@@ -1968,7 +1981,7 @@
       ]
     },
     "System.Collections.Immutable/1.5.0": {
-      "sha512": "RGxi2aQoXgZ5ge0zxrKqI4PU9LrYYoLC+cnEnWXKsSduCOUhE1GEAAoTexUVT8RZOILQyy1B27HC8Xw/XLGzdQ==",
+      "sha512": "T5XGQlcHhEO75Qx38GGCUDPdk4n/7yrRmTgy4yczzJV8alPHaxPU55TBC2UFrkQ42bu34sZPfK0dU+nWZUOEJA==",
       "type": "package",
       "path": "system.collections.immutable/1.5.0",
       "files": [
@@ -3385,7 +3398,7 @@
       ]
     },
     "System.Security.AccessControl/4.5.0": {
-      "sha512": "aVjTe36YkO8FzfNhMLoPEzv3gF9rphoW9ngFhG/MH4zzEPLx07sNrgCLwMP4Wx2leI6qarMrGv21OwQXYUKLmw==",
+      "sha512": "6RQtcT+TyDgLUFsAnmmdfRRGdLYKxSZGkSPOd052tvYFxOTMaQb6ANlwhGqZtNO52PosaCoXu7uatFneujAxmA==",
       "type": "package",
       "path": "system.security.accesscontrol/4.5.0",
       "files": [
@@ -3427,7 +3440,7 @@
       ]
     },
     "System.Security.Principal.Windows/4.5.0": {
-      "sha512": "WA9ETb/pY3BjnxKjBUHEgO59B7d/nnmjHFsqjJ2eDT780nD769CT1/bw2ia0Z6W7NqlcqokE6sKGKa6uw88XGA==",
+      "sha512": "hs2zF4tOQ3V4iQttVnLrnR/i8AOrrAgu2Gmp4/jNaE/+5hiZWDj20FK/m/OW3Itdi9XDvqf55WzHkiWYtOSUNg==",
       "type": "package",
       "path": "system.security.principal.windows/4.5.0",
       "files": [
@@ -3731,6 +3744,11 @@
       "path": "../Welsby.Surveys.DataLayer/Welsby.Surveys.DataLayer.csproj",
       "msbuildProject": "../Welsby.Surveys.DataLayer/Welsby.Surveys.DataLayer.csproj"
     },
+    "Welsby.Surveys.Dtos/1.0.0": {
+      "type": "project",
+      "path": "../Welsby.Surveys.Dtos/Welsby.Surveys.Dtos.csproj",
+      "msbuildProject": "../Welsby.Surveys.Dtos/Welsby.Surveys.Dtos.csproj"
+    },
     "Welsby.Surveys.GenericInterfaces/1.0.0": {
       "type": "project",
       "path": "../Welsby.Surveys.GenericInterfaces/Welsby.Surveys.GenericInterfaces.csproj",
@@ -3741,6 +3759,7 @@
     ".NETCoreApp,Version=v2.1": [
       "Microsoft.NETCore.App >= 2.1.0",
       "Welsby.Surveys.BizDbAccess >= 1.0.0",
+      "Welsby.Surveys.Dtos >= 1.0.0",
       "Welsby.Surveys.GenericInterfaces >= 1.0.0"
     ]
   },
@@ -3776,6 +3795,9 @@
           "projectReferences": {
             "C:\\Development\\Development\\Projects\\Welsby.Surveys\\Welsby.Surveys.BizDbRunner\\Welsby.Surveys.BizDbAccess.csproj": {
               "projectPath": "C:\\Development\\Development\\Projects\\Welsby.Surveys\\Welsby.Surveys.BizDbRunner\\Welsby.Surveys.BizDbAccess.csproj"
+            },
+            "C:\\Development\\Development\\Projects\\Welsby.Surveys\\Welsby.Surveys.Dtos\\Welsby.Surveys.Dtos.csproj": {
+              "projectPath": "C:\\Development\\Development\\Projects\\Welsby.Surveys\\Welsby.Surveys.Dtos\\Welsby.Surveys.Dtos.csproj"
             },
             "C:\\Development\\Development\\Projects\\Welsby.Surveys\\Welsby.Surveys.GenericInterfaces\\Welsby.Surveys.GenericInterfaces.csproj": {
               "projectPath": "C:\\Development\\Development\\Projects\\Welsby.Surveys\\Welsby.Surveys.GenericInterfaces\\Welsby.Surveys.GenericInterfaces.csproj"

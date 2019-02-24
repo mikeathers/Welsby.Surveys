@@ -1,10 +1,8 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 using Microsoft.AspNetCore.Mvc;
-using Welsby.Surveys.BizLogic.CompletedSurveys.Dtos;
-using Welsby.Surveys.ServiceLayer.CompletedSurveyServices.Dtos;
+using Welsby.Surveys.Dtos;
 using Welsby.Surveys.ServiceLayer.CompletedSurveyServices.Interfaces;
-using Welsby.Surveys.ServiceLayer.SurveyServices.Dtos;
 using Welsby.Surveys.ServiceLayer.SurveyServices.Interfaces;
 
 namespace Welsby.Surveys.Api.Controllers

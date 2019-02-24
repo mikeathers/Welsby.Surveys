@@ -8,7 +8,7 @@ namespace Welsby.Surveys.DataLayer.Configurations
     {
         public SurveyDbContext() { }
 
-        public SurveyDbContext(DbContextOptions options) : base(options)
+        public SurveyDbContext(DbContextOptions<SurveyDbContext> options) : base(options)
         {
         }
 

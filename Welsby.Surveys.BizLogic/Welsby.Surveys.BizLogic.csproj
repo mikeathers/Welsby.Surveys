@@ -6,6 +6,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Welsby.Surveys.BizDbRunner\Welsby.Surveys.BizDbAccess.csproj" />
+    <ProjectReference Include="..\Welsby.Surveys.Dtos\Welsby.Surveys.Dtos.csproj" />
     <ProjectReference Include="..\Welsby.Surveys.GenericInterfaces\Welsby.Surveys.GenericInterfaces.csproj" />
   </ItemGroup>
 

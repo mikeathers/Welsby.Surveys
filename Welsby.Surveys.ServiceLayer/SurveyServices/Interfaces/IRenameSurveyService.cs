@@ -1,9 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Collections.Immutable;
+﻿using System.Collections.Immutable;
 using System.ComponentModel.DataAnnotations;
-using System.Text;
-using Welsby.Surveys.ServiceLayer.SurveyServices.Dtos;
+using Welsby.Surveys.Dtos;
 
 namespace Welsby.Surveys.ServiceLayer.SurveyServices.Interfaces
 {

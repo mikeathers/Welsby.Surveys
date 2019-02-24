@@ -8,8 +8,10 @@ C:\Development\Development\Projects\Welsby.Surveys\Welsby.Surveys.ServiceLayer\b
 C:\Development\Development\Projects\Welsby.Surveys\Welsby.Surveys.ServiceLayer\bin\Debug\netcoreapp2.1\Welsby.Surveys.BizDbAccess.dll
 C:\Development\Development\Projects\Welsby.Surveys\Welsby.Surveys.ServiceLayer\bin\Debug\netcoreapp2.1\Welsby.Surveys.BizLogic.dll
 C:\Development\Development\Projects\Welsby.Surveys\Welsby.Surveys.ServiceLayer\bin\Debug\netcoreapp2.1\Welsby.Surveys.DataLayer.dll
+C:\Development\Development\Projects\Welsby.Surveys\Welsby.Surveys.ServiceLayer\bin\Debug\netcoreapp2.1\Welsby.Surveys.Dtos.dll
 C:\Development\Development\Projects\Welsby.Surveys\Welsby.Surveys.ServiceLayer\bin\Debug\netcoreapp2.1\Welsby.Surveys.GenericInterfaces.dll
 C:\Development\Development\Projects\Welsby.Surveys\Welsby.Surveys.ServiceLayer\bin\Debug\netcoreapp2.1\Welsby.Surveys.BizLogic.pdb
+C:\Development\Development\Projects\Welsby.Surveys\Welsby.Surveys.ServiceLayer\bin\Debug\netcoreapp2.1\Welsby.Surveys.Dtos.pdb
 C:\Development\Development\Projects\Welsby.Surveys\Welsby.Surveys.ServiceLayer\bin\Debug\netcoreapp2.1\Welsby.Surveys.BizDbAccess.pdb
 C:\Development\Development\Projects\Welsby.Surveys\Welsby.Surveys.ServiceLayer\bin\Debug\netcoreapp2.1\Welsby.Surveys.DataLayer.pdb
 C:\Development\Development\Projects\Welsby.Surveys\Welsby.Surveys.ServiceLayer\bin\Debug\netcoreapp2.1\Welsby.Surveys.GenericInterfaces.pdb
