@@ -9,7 +9,7 @@ using Xunit.Extensions.AssertExtensions;
 
 namespace Welsby.Surveys.Tests.UnitTests.ServiceLayer.CompletedSurveys
 {
-    public class SaveCompletedQuestionToCompletedSurveyService
+    public class SaveCompletedQuestionToCompletedSurveyServiceTest
     {
         public List<CompletedQuestionDto> completedQuestionsDto = new List<CompletedQuestionDto>
         {
@@ -26,7 +26,7 @@ namespace Welsby.Surveys.Tests.UnitTests.ServiceLayer.CompletedSurveys
         };
 
         [Fact]
-        public void TestSaveCompletedQuestionOk()
+        public void ShouldSaveCompletedSurvey()
         {
             var options = SqliteInMemory.CreateOptions<SurveyDbContext>();
             using (var context = new SurveyDbContext(options))
@@ -44,8 +44,7 @@ namespace Welsby.Surveys.Tests.UnitTests.ServiceLayer.CompletedSurveys
                     Questions = completedQuestionsDto
                 };
 
-                var service = new Surveys.ServiceLayer.CompletedSurveyServices.SaveCompletedQuestionToCompletedSurveyService
-                                                                (context, new MapCompletedQuestionsFromDtoService());
+                var service = new SaveCompletedQuestionToCompletedSurveyService(context, new MapCompletedQuestionsFromDtoService());
 
                 var result = service.SaveCompletedQuestion(completedSurveyDto);
                 result.ShouldBeNull();
@@ -55,7 +54,7 @@ namespace Welsby.Surveys.Tests.UnitTests.ServiceLayer.CompletedSurveys
         }
 
         [Fact]
-        public void TestSaveCompletedQuestionNoQuestions()
+        public void ShouldReturnErrorMessageWhenNoQuestionsProvided()
         {
             var options = SqliteInMemory.CreateOptions<SurveyDbContext>();
             using (var context = new SurveyDbContext(options))
@@ -72,8 +71,7 @@ namespace Welsby.Surveys.Tests.UnitTests.ServiceLayer.CompletedSurveys
                     CaseNo = 999
                 };
 
-                var service = new Surveys.ServiceLayer.CompletedSurveyServices.SaveCompletedQuestionToCompletedSurveyService
-                    (context, new MapCompletedQuestionsFromDtoService());
+                var service = new SaveCompletedQuestionToCompletedSurveyService(context, new MapCompletedQuestionsFromDtoService());
 
                 var result = service.SaveCompletedQuestion(completedSurveyDto);
                 result.ShouldNotBeNull();
@@ -84,7 +82,7 @@ namespace Welsby.Surveys.Tests.UnitTests.ServiceLayer.CompletedSurveys
         }
 
         [Fact]
-        public void TestSaveCompletedQuestionSurveyNotFound()
+        public void ShouldReturnErrorMessageWhenSurveyNotFound()
         {
             var options = SqliteInMemory.CreateOptions<SurveyDbContext>();
             using (var context = new SurveyDbContext(options))
@@ -103,8 +101,7 @@ namespace Welsby.Surveys.Tests.UnitTests.ServiceLayer.CompletedSurveys
                     Questions = completedQuestionsDto
                 };
 
-                var service = new Surveys.ServiceLayer.CompletedSurveyServices.SaveCompletedQuestionToCompletedSurveyService
-                    (context, new MapCompletedQuestionsFromDtoService());
+                var service = new SaveCompletedQuestionToCompletedSurveyService(context, new MapCompletedQuestionsFromDtoService());
 
                 var result = service.SaveCompletedQuestion(completedSurveyDto);
                 result.ShouldNotBeNull();
@@ -116,7 +113,7 @@ namespace Welsby.Surveys.Tests.UnitTests.ServiceLayer.CompletedSurveys
         }
 
         [Fact]
-        public void TestSaveCompletedQuestionNoAnswer()
+        public void ShouldReturnErrorMessageWhenNoAnswerProvided()
         {
             var options = SqliteInMemory.CreateOptions<SurveyDbContext>();
             using (var context = new SurveyDbContext(options))
@@ -142,8 +139,7 @@ namespace Welsby.Surveys.Tests.UnitTests.ServiceLayer.CompletedSurveys
                     Questions = completedQuestionsDto
                 };
 
-                var service = new Surveys.ServiceLayer.CompletedSurveyServices.SaveCompletedQuestionToCompletedSurveyService
-                    (context, new MapCompletedQuestionsFromDtoService());
+                var service = new SaveCompletedQuestionToCompletedSurveyService(context, new MapCompletedQuestionsFromDtoService());
 
                 var result = service.SaveCompletedQuestion(completedSurveyDto);
                 result.ShouldNotBeNull();

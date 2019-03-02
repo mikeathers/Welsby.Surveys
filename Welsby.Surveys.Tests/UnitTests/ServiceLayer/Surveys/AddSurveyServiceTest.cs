@@ -8,11 +8,11 @@ using Xunit.Extensions.AssertExtensions;
 
 namespace Welsby.Surveys.Tests.UnitTests.ServiceLayer.Surverys
 {
-    public class AddSurveyService        
+    public class AddSurveyServiceTest        
     {
         
         [Fact]
-        public void TestAddSurveyOk()
+        public void ShouldAddASurvey()
         {
             var options = SqliteInMemory.CreateOptions<SurveyDbContext>();
             using (var context = new SurveyDbContext(options))
@@ -29,7 +29,7 @@ namespace Welsby.Surveys.Tests.UnitTests.ServiceLayer.Surverys
                     Name = "Test Survey A"
                 };
 
-                var service = new Surveys.ServiceLayer.SurveyServices.AddSurveyService(context, new MapQuestionsToGroupService());
+                var service = new AddSurveyService(context, new MapQuestionsToGroupService());
                 var result = service.AddSurvey(surveyDto);
                 result.ShouldBeNull();
                 context.SaveChanges();
@@ -38,7 +38,7 @@ namespace Welsby.Surveys.Tests.UnitTests.ServiceLayer.Surverys
         }
 
         [Fact]
-        public void TestAddSurveyNoQuestionGroups()
+        public void ShouldReturnAnErrorMessageWhenNoQuestionGroupsProvided()
         {
             var options = SqliteInMemory.CreateOptions<SurveyDbContext>();
             using (var context = new SurveyDbContext(options))
@@ -54,7 +54,7 @@ namespace Welsby.Surveys.Tests.UnitTests.ServiceLayer.Surverys
                     Name = "Test Survey A"
                 };
 
-                var service = new Surveys.ServiceLayer.SurveyServices.AddSurveyService(context, new MapQuestionsToGroupService());
+                var service = new AddSurveyService(context, new MapQuestionsToGroupService());
                 var result = service.AddSurvey(surveyDto);
                 result.ShouldNotBeNull();
                 context.SaveChanges();
@@ -64,7 +64,7 @@ namespace Welsby.Surveys.Tests.UnitTests.ServiceLayer.Surverys
         }
 
         [Fact]
-        public void TestAddSurveyNoName()
+        public void ShouldReturnAnErrorMessageWhenNoNameProvided()
         {
             var options = SqliteInMemory.CreateOptions<SurveyDbContext>();
             using (var context = new SurveyDbContext(options))
@@ -80,7 +80,7 @@ namespace Welsby.Surveys.Tests.UnitTests.ServiceLayer.Surverys
                     QuestionGroupsDtos = questionGroups,
                 };
 
-                var service = new Surveys.ServiceLayer.SurveyServices.AddSurveyService(context, new MapQuestionsToGroupService());
+                var service = new AddSurveyService(context, new MapQuestionsToGroupService());
                 var result = service.AddSurvey(surveyDto);
                 result.ShouldNotBeNull();
                 context.SaveChanges();

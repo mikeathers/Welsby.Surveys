@@ -28,6 +28,12 @@ namespace Welsby.Surveys.ServiceLayer.SurveyServices
                 return Status.Errors;
             }
 
+            if (string.IsNullOrWhiteSpace(dto.NewName))
+            {
+                Status.AddError("No new name has been provided for this survey.");
+                return Status.Errors;
+            }
+
             Status = survey.RenameSurvey(dto.NewName, _context);
             if (Status.HasErrors) return Status.Errors;
             _context.SaveChanges();

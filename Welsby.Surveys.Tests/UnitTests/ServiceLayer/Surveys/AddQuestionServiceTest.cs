@@ -9,10 +9,10 @@ using Xunit.Extensions.AssertExtensions;
 
 namespace Welsby.Surveys.Tests.UnitTests.ServiceLayer.Surverys
 {
-    public class AddQuestionService
+    public class AddQuestionServiceTest
     {
         [Fact]
-        public void TestAddQuestionOk()
+        public void ShouldAddAQuestion()
         {
             var options = SqliteInMemory.CreateOptions<SurveyDbContext>();
             using (var context = new SurveyDbContext(options))
@@ -37,7 +37,7 @@ namespace Welsby.Surveys.Tests.UnitTests.ServiceLayer.Surverys
                     QuestionsDtos = questionDtos
                 };
 
-                var service = new Surveys.ServiceLayer.SurveyServices.AddQuestionService(context, new MapQuestionDtoToQuestionsService());
+                var service = new AddQuestionService(context, new MapQuestionDtoToQuestionsService());
                 var result = service.AddQuestion(surveyDto);
                 result.ShouldBeNull();
                 context.SaveChanges();
@@ -46,7 +46,7 @@ namespace Welsby.Surveys.Tests.UnitTests.ServiceLayer.Surverys
         }
 
         [Fact]
-        public void TestAddQuestionSurveyNotFound()
+        public void ShouldReturnErrorMessageWhenSurveyNotFound()
         {
             var options = SqliteInMemory.CreateOptions<SurveyDbContext>();
             using (var context = new SurveyDbContext(options))
@@ -72,7 +72,7 @@ namespace Welsby.Surveys.Tests.UnitTests.ServiceLayer.Surverys
                     QuestionsDtos = questionDtos
                 };
 
-                var service = new Surveys.ServiceLayer.SurveyServices.AddQuestionService(context, new MapQuestionDtoToQuestionsService());
+                var service = new AddQuestionService(context, new MapQuestionDtoToQuestionsService());
                 var result = service.AddQuestion(surveyDto);
                 result.ShouldNotBeNull();
                 result.First().ErrorMessage.ShouldEqual($"Could not find Survey with an Id of {surveyId}");
@@ -82,7 +82,7 @@ namespace Welsby.Surveys.Tests.UnitTests.ServiceLayer.Surverys
         }
 
         [Fact]
-        public void TestAddQuestionQuestionGroupNotFound()
+        public void ShouldReturnErrorMessageWhenQuestionGroupNotFound()
         {
             var options = SqliteInMemory.CreateOptions<SurveyDbContext>();
             using (var context = new SurveyDbContext(options))
@@ -108,7 +108,7 @@ namespace Welsby.Surveys.Tests.UnitTests.ServiceLayer.Surverys
                     QuestionsDtos = questionDtos
                 };
 
-                var service = new Surveys.ServiceLayer.SurveyServices.AddQuestionService(context, new MapQuestionDtoToQuestionsService());
+                var service = new AddQuestionService(context, new MapQuestionDtoToQuestionsService());
                 var result = service.AddQuestion(surveyDto);
                 result.ShouldNotBeNull();
                 result.First().ErrorMessage.ShouldEqual($"Could not find QuestionGroup with an Id of {questionGroupId}");
@@ -119,7 +119,7 @@ namespace Welsby.Surveys.Tests.UnitTests.ServiceLayer.Surverys
 
 
         [Fact]
-        public void TestAddQuestionQuestionTypeNotSpecified()
+        public void ShouldReturnErrorMessageWhenQuestionTypeNotSpecified()
         {
             var options = SqliteInMemory.CreateOptions<SurveyDbContext>();
             using (var context = new SurveyDbContext(options))
@@ -143,7 +143,7 @@ namespace Welsby.Surveys.Tests.UnitTests.ServiceLayer.Surverys
                     QuestionsDtos = questionDtos
                 };
 
-                var service = new Surveys.ServiceLayer.SurveyServices.AddQuestionService(context, new MapQuestionDtoToQuestionsService());
+                var service = new AddQuestionService(context, new MapQuestionDtoToQuestionsService());
                 var result = service.AddQuestion(surveyDto);
                 result.ShouldNotBeNull();
                 result.First().ErrorMessage.ShouldEqual("A question has been submitted with an invalid question type.");
@@ -153,7 +153,7 @@ namespace Welsby.Surveys.Tests.UnitTests.ServiceLayer.Surverys
         }
 
         [Fact]
-        public void TestAddQuestionQuestionTextNotSpecified()
+        public void ShouldReturnErrorMessageWhenQuestionTextNotSpecified()
         {
             var options = SqliteInMemory.CreateOptions<SurveyDbContext>();
             using (var context = new SurveyDbContext(options))
@@ -177,7 +177,7 @@ namespace Welsby.Surveys.Tests.UnitTests.ServiceLayer.Surverys
                     QuestionsDtos = questionDtos
                 };
 
-                var service = new Surveys.ServiceLayer.SurveyServices.AddQuestionService(context, new MapQuestionDtoToQuestionsService());
+                var service = new AddQuestionService(context, new MapQuestionDtoToQuestionsService());
                 var result = service.AddQuestion(surveyDto);
                 result.ShouldNotBeNull();
                 result.First().ErrorMessage.ShouldEqual("A question has been submitted without any text.");

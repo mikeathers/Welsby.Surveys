@@ -9,10 +9,10 @@ using Xunit.Extensions.AssertExtensions;
 
 namespace Welsby.Surveys.Tests.UnitTests.ServiceLayer.Surverys
 {
-    public class AddQuestionGroupService
+    public class AddQuestionGroupServiceTest
     {
         [Fact]
-        public void TestAddQuestionGroupOk()
+        public void ShouldAddQuestionGroup()
         {
             var options = SqliteInMemory.CreateOptions<SurveyDbContext>();
             using (var context = new SurveyDbContext(options))
@@ -38,7 +38,7 @@ namespace Welsby.Surveys.Tests.UnitTests.ServiceLayer.Surverys
                     QuestionGroupsDtos = questionGroupsDto
                 };
 
-                var service = new Surveys.ServiceLayer.SurveyServices.AddQuestionGroupService(context, new MapQuestionsToGroupService());
+                var service = new AddQuestionGroupService(context, new MapQuestionsToGroupService());
                 var result = service.AddQuestionGroup(surveyDto);
                 result.ShouldBeNull();
                 context.SaveChanges();
@@ -47,7 +47,7 @@ namespace Welsby.Surveys.Tests.UnitTests.ServiceLayer.Surverys
         }
 
         [Fact]
-        public void TestAddQuestionGroupSurveyNotFound()
+        public void ShouldReturnAnErrorMessageWhenSurveyNotFound()
         {
             var options = SqliteInMemory.CreateOptions<SurveyDbContext>();
             using (var context = new SurveyDbContext(options))
@@ -74,7 +74,7 @@ namespace Welsby.Surveys.Tests.UnitTests.ServiceLayer.Surverys
                     QuestionGroupsDtos = questionGroupsDto
                 };
 
-                var service = new Surveys.ServiceLayer.SurveyServices.AddQuestionGroupService(context, new MapQuestionsToGroupService());
+                var service = new AddQuestionGroupService(context, new MapQuestionsToGroupService());
                 var result = service.AddQuestionGroup(surveyDto);
                 result.ShouldNotBeNull();
                 context.SaveChanges();
@@ -84,7 +84,7 @@ namespace Welsby.Surveys.Tests.UnitTests.ServiceLayer.Surverys
         }
 
         [Fact]
-        public void TestAddQuestionGroupNoName()
+        public void ShouldReturnAnErrorMessageWhenGroupNoNameProvided()
         {
             var options = SqliteInMemory.CreateOptions<SurveyDbContext>();
             using (var context = new SurveyDbContext(options))
@@ -109,7 +109,7 @@ namespace Welsby.Surveys.Tests.UnitTests.ServiceLayer.Surverys
                     QuestionGroupsDtos = questionGroupsDto
                 };
 
-                var service = new Surveys.ServiceLayer.SurveyServices.AddQuestionGroupService(context, new MapQuestionsToGroupService());
+                var service = new AddQuestionGroupService(context, new MapQuestionsToGroupService());
                 var result = service.AddQuestionGroup(surveyDto);
                 result.ShouldNotBeNull();
                 context.SaveChanges();

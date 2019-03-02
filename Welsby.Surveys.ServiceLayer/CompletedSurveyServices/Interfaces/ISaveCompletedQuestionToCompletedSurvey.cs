@@ -4,7 +4,7 @@ using Welsby.Surveys.Dtos;
 
 namespace Welsby.Surveys.ServiceLayer.CompletedSurveyServices.Interfaces
 {
-    interface ISaveCompletedQuestionToCompletedSurvey
+    public interface ISaveCompletedQuestionToCompletedSurvey
     {
         IImmutableList<ValidationResult> SaveCompletedQuestion(CompletedSurveyDto dto);
     }
