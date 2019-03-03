@@ -8,15 +8,19 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Welsby.Surveys.AppSettings;
 using Welsby.Surveys.DataLayer.Configurations;
 
 namespace Welsby.Surveys.Api
 {
     public class Startup
     {
-        public Startup(IConfiguration configuration)
+        private readonly IAppSettings _appSettings;
+            
+        public Startup(IConfiguration configuration, IAppSettings appSettings)
         {
             Configuration = configuration;
+            _appSettings = appSettings;
         }
 
         public IConfiguration Configuration { get; }
@@ -24,13 +28,17 @@ namespace Welsby.Surveys.Api
         // This method gets called by the runtime. Use this method to add services to the container.
         public IServiceProvider ConfigureServices(IServiceCollection services)
         {
-            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
+            var configuration = _appSettings.GetConfiguration();
+            var connectionString = configuration.GetConnectionString("DefaultConnection");
 
-            var connection = "Data Source=LAPTOP-NR5UK36Q;Initial Catalog=Welsby.Surveys;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
-            services.AddDbContext<SurveyDbContext>(options => options.UseSqlServer(connection,
+            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
+            
+            services.AddDbContext<SurveyDbContext>(options => options.UseSqlServer(connectionString,
                 b => b.MigrationsAssembly("Welsby.Surveys.DataLayer")));
 
             services.AddAutoMapper();
+
+           
 
             // Add AutoFac
             var containerBuilder = new ContainerBuilder();

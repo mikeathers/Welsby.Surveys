@@ -24,6 +24,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Welsby.Surveys.AppSettings\Welsby.Surveys.AppSettings.csproj" />
     <ProjectReference Include="..\Welsby.Surveys.GenericInterfaces\Welsby.Surveys.GenericInterfaces.csproj" />
   </ItemGroup>
 

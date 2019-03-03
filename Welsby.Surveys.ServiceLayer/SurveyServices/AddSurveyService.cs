@@ -11,7 +11,7 @@ namespace Welsby.Surveys.ServiceLayer.SurveyServices
     public class AddSurveyService : IAddSurveyService
     {
         private readonly SurveyDbContext _context;
-        private readonly MapQuestionsToGroupService _questionMapper;
+        private readonly IMapQuestionsToGroupService _questionMapper;
 
         public StatusGenericHandler Status { get; set; } = new StatusGenericHandler();
 

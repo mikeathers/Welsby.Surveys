@@ -20,9 +20,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		.gitignore = .gitignore
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Welsby.Surveys.Tests", "Welsby.Surveys.Tests\Welsby.Surveys.Tests.csproj", "{84FA7973-045C-4637-9BDC-26B2AA8A5056}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Welsby.Surveys.Tests", "Welsby.Surveys.Tests\Welsby.Surveys.Tests.csproj", "{84FA7973-045C-4637-9BDC-26B2AA8A5056}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Welsby.Surveys.Dtos", "Welsby.Surveys.Dtos\Welsby.Surveys.Dtos.csproj", "{08BA31A9-3C76-496A-8CBD-779195622250}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Welsby.Surveys.Dtos", "Welsby.Surveys.Dtos\Welsby.Surveys.Dtos.csproj", "{08BA31A9-3C76-496A-8CBD-779195622250}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Welsby.Surveys.AppSettings", "Welsby.Surveys.AppSettings\Welsby.Surveys.AppSettings.csproj", "{468CF443-80B5-4D0F-BCA3-167BB5E99C69}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -62,6 +64,10 @@ Global
 		{08BA31A9-3C76-496A-8CBD-779195622250}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{08BA31A9-3C76-496A-8CBD-779195622250}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{08BA31A9-3C76-496A-8CBD-779195622250}.Release|Any CPU.Build.0 = Release|Any CPU
+		{468CF443-80B5-4D0F-BCA3-167BB5E99C69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{468CF443-80B5-4D0F-BCA3-167BB5E99C69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{468CF443-80B5-4D0F-BCA3-167BB5E99C69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{468CF443-80B5-4D0F-BCA3-167BB5E99C69}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

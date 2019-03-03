@@ -1,10 +1,7 @@
-C:\Development\Development\Projects\Welsby.Surveys\Welsby.Surveys.ServiceLayer\obj\Debug\netcoreapp2.1\Welsby.Surveys.ServiceLayer.csprojAssemblyReference.cache
-C:\Development\Development\Projects\Welsby.Surveys\Welsby.Surveys.ServiceLayer\obj\Debug\netcoreapp2.1\Welsby.Surveys.ServiceLayer.csproj.CoreCompileInputs.cache
-C:\Development\Development\Projects\Welsby.Surveys\Welsby.Surveys.ServiceLayer\obj\Debug\netcoreapp2.1\Welsby.Surveys.ServiceLayer.AssemblyInfoInputs.cache
-C:\Development\Development\Projects\Welsby.Surveys\Welsby.Surveys.ServiceLayer\obj\Debug\netcoreapp2.1\Welsby.Surveys.ServiceLayer.AssemblyInfo.cs
 C:\Development\Development\Projects\Welsby.Surveys\Welsby.Surveys.ServiceLayer\bin\Debug\netcoreapp2.1\Welsby.Surveys.ServiceLayer.deps.json
 C:\Development\Development\Projects\Welsby.Surveys\Welsby.Surveys.ServiceLayer\bin\Debug\netcoreapp2.1\Welsby.Surveys.ServiceLayer.dll
 C:\Development\Development\Projects\Welsby.Surveys\Welsby.Surveys.ServiceLayer\bin\Debug\netcoreapp2.1\Welsby.Surveys.ServiceLayer.pdb
+C:\Development\Development\Projects\Welsby.Surveys\Welsby.Surveys.ServiceLayer\bin\Debug\netcoreapp2.1\Welsby.Surveys.AppSettings.dll
 C:\Development\Development\Projects\Welsby.Surveys\Welsby.Surveys.ServiceLayer\bin\Debug\netcoreapp2.1\Welsby.Surveys.BizDbAccess.dll
 C:\Development\Development\Projects\Welsby.Surveys\Welsby.Surveys.ServiceLayer\bin\Debug\netcoreapp2.1\Welsby.Surveys.BizLogic.dll
 C:\Development\Development\Projects\Welsby.Surveys\Welsby.Surveys.ServiceLayer\bin\Debug\netcoreapp2.1\Welsby.Surveys.DataLayer.dll
@@ -12,9 +9,14 @@ C:\Development\Development\Projects\Welsby.Surveys\Welsby.Surveys.ServiceLayer\b
 C:\Development\Development\Projects\Welsby.Surveys\Welsby.Surveys.ServiceLayer\bin\Debug\netcoreapp2.1\Welsby.Surveys.GenericInterfaces.dll
 C:\Development\Development\Projects\Welsby.Surveys\Welsby.Surveys.ServiceLayer\bin\Debug\netcoreapp2.1\Welsby.Surveys.BizLogic.pdb
 C:\Development\Development\Projects\Welsby.Surveys\Welsby.Surveys.ServiceLayer\bin\Debug\netcoreapp2.1\Welsby.Surveys.Dtos.pdb
+C:\Development\Development\Projects\Welsby.Surveys\Welsby.Surveys.ServiceLayer\bin\Debug\netcoreapp2.1\Welsby.Surveys.AppSettings.pdb
 C:\Development\Development\Projects\Welsby.Surveys\Welsby.Surveys.ServiceLayer\bin\Debug\netcoreapp2.1\Welsby.Surveys.BizDbAccess.pdb
 C:\Development\Development\Projects\Welsby.Surveys\Welsby.Surveys.ServiceLayer\bin\Debug\netcoreapp2.1\Welsby.Surveys.DataLayer.pdb
 C:\Development\Development\Projects\Welsby.Surveys\Welsby.Surveys.ServiceLayer\bin\Debug\netcoreapp2.1\Welsby.Surveys.GenericInterfaces.pdb
+C:\Development\Development\Projects\Welsby.Surveys\Welsby.Surveys.ServiceLayer\obj\Debug\netcoreapp2.1\Welsby.Surveys.ServiceLayer.csprojAssemblyReference.cache
+C:\Development\Development\Projects\Welsby.Surveys\Welsby.Surveys.ServiceLayer\obj\Debug\netcoreapp2.1\Welsby.Surveys.ServiceLayer.csproj.CoreCompileInputs.cache
+C:\Development\Development\Projects\Welsby.Surveys\Welsby.Surveys.ServiceLayer\obj\Debug\netcoreapp2.1\Welsby.Surveys.ServiceLayer.AssemblyInfoInputs.cache
+C:\Development\Development\Projects\Welsby.Surveys\Welsby.Surveys.ServiceLayer\obj\Debug\netcoreapp2.1\Welsby.Surveys.ServiceLayer.AssemblyInfo.cs
 C:\Development\Development\Projects\Welsby.Surveys\Welsby.Surveys.ServiceLayer\obj\Debug\netcoreapp2.1\Welsby.Surveys.ServiceLayer.csproj.CopyComplete
 C:\Development\Development\Projects\Welsby.Surveys\Welsby.Surveys.ServiceLayer\obj\Debug\netcoreapp2.1\Welsby.Surveys.ServiceLayer.dll
 C:\Development\Development\Projects\Welsby.Surveys\Welsby.Surveys.ServiceLayer\obj\Debug\netcoreapp2.1\Welsby.Surveys.ServiceLayer.pdb

@@ -21,14 +21,32 @@ namespace Welsby.Surveys.ServiceLayer.SurveyServices
 
         public Task<List<Survey>> GetSurveys()
         {
-            if (_context == null) return null;
-            return _context.Surveys.ToListAsync();
+            try
+            {
+                if (_context == null) return null;
+                return _context.Surveys.ToListAsync();
+            }
+            catch
+            {
+                // Log error;
+                return null;
+            }
+
+            
         }
 
         public IQueryable<SurveyListForDropdownDto> GetSurveysForDropdown()
         {
-            if (_context == null) return null;
-            return _context.Surveys.MapSurveyListForDropdown();
+            try
+            {
+                if (_context == null) return null;
+                return _context.Surveys.MapSurveyListForDropdown();
+            }
+            catch
+            {
+                // Log error;
+                return null;
+            }
         }
     }
 }

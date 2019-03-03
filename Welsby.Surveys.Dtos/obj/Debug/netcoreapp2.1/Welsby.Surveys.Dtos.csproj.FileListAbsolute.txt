@@ -1,9 +1,11 @@
 C:\Development\Development\Projects\Welsby.Surveys\Welsby.Surveys.Dtos\bin\Debug\netcoreapp2.1\Welsby.Surveys.Dtos.deps.json
 C:\Development\Development\Projects\Welsby.Surveys\Welsby.Surveys.Dtos\bin\Debug\netcoreapp2.1\Welsby.Surveys.Dtos.dll
 C:\Development\Development\Projects\Welsby.Surveys\Welsby.Surveys.Dtos\bin\Debug\netcoreapp2.1\Welsby.Surveys.Dtos.pdb
+C:\Development\Development\Projects\Welsby.Surveys\Welsby.Surveys.Dtos\bin\Debug\netcoreapp2.1\Welsby.Surveys.AppSettings.dll
 C:\Development\Development\Projects\Welsby.Surveys\Welsby.Surveys.Dtos\bin\Debug\netcoreapp2.1\Welsby.Surveys.DataLayer.dll
 C:\Development\Development\Projects\Welsby.Surveys\Welsby.Surveys.Dtos\bin\Debug\netcoreapp2.1\Welsby.Surveys.GenericInterfaces.dll
 C:\Development\Development\Projects\Welsby.Surveys\Welsby.Surveys.Dtos\bin\Debug\netcoreapp2.1\Welsby.Surveys.DataLayer.pdb
+C:\Development\Development\Projects\Welsby.Surveys\Welsby.Surveys.Dtos\bin\Debug\netcoreapp2.1\Welsby.Surveys.AppSettings.pdb
 C:\Development\Development\Projects\Welsby.Surveys\Welsby.Surveys.Dtos\bin\Debug\netcoreapp2.1\Welsby.Surveys.GenericInterfaces.pdb
 C:\Development\Development\Projects\Welsby.Surveys\Welsby.Surveys.Dtos\obj\Debug\netcoreapp2.1\Welsby.Surveys.Dtos.csprojAssemblyReference.cache
 C:\Development\Development\Projects\Welsby.Surveys\Welsby.Surveys.Dtos\obj\Debug\netcoreapp2.1\Welsby.Surveys.Dtos.csproj.CoreCompileInputs.cache

@@ -1,0 +1,11 @@
+C:\Development\Development\Projects\Welsby.Surveys\Welsby.Surveys.AppSettings\bin\Debug\netcoreapp2.1\Welsby.Surveys.AppSettings.deps.json
+C:\Development\Development\Projects\Welsby.Surveys\Welsby.Surveys.AppSettings\bin\Debug\netcoreapp2.1\Welsby.Surveys.AppSettings.dll
+C:\Development\Development\Projects\Welsby.Surveys\Welsby.Surveys.AppSettings\bin\Debug\netcoreapp2.1\Welsby.Surveys.AppSettings.pdb
+C:\Development\Development\Projects\Welsby.Surveys\Welsby.Surveys.AppSettings\bin\Debug\netcoreapp2.1\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Development\Development\Projects\Welsby.Surveys\Welsby.Surveys.AppSettings\obj\Debug\netcoreapp2.1\Welsby.Surveys.AppSettings.csprojAssemblyReference.cache
+C:\Development\Development\Projects\Welsby.Surveys\Welsby.Surveys.AppSettings\obj\Debug\netcoreapp2.1\Welsby.Surveys.AppSettings.csproj.CoreCompileInputs.cache
+C:\Development\Development\Projects\Welsby.Surveys\Welsby.Surveys.AppSettings\obj\Debug\netcoreapp2.1\Welsby.Surveys.AppSettings.AssemblyInfoInputs.cache
+C:\Development\Development\Projects\Welsby.Surveys\Welsby.Surveys.AppSettings\obj\Debug\netcoreapp2.1\Welsby.Surveys.AppSettings.AssemblyInfo.cs
+C:\Development\Development\Projects\Welsby.Surveys\Welsby.Surveys.AppSettings\obj\Debug\netcoreapp2.1\Welsby.Surveys.AppSettings.csproj.CopyComplete
+C:\Development\Development\Projects\Welsby.Surveys\Welsby.Surveys.AppSettings\obj\Debug\netcoreapp2.1\Welsby.Surveys.AppSettings.dll
+C:\Development\Development\Projects\Welsby.Surveys\Welsby.Surveys.AppSettings\obj\Debug\netcoreapp2.1\Welsby.Surveys.AppSettings.pdb

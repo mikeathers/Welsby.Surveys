@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
+using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Welsby.Surveys.Dtos;
 using Welsby.Surveys.ServiceLayer.CompletedSurveyServices.Interfaces;
@@ -57,6 +58,15 @@ namespace Welsby.Surveys.Api.Controllers
         {
             var status = service.SaveCompletedSurvey(dto);
             return status == null ? new JsonResult("Ok") : new JsonResult(status.ToList());
+        }
+
+        [HttpGet, Route("getsurveys")]
+        public async Task<IActionResult> GetListOfSurveys([FromServices] IListSurveysService service)
+        {
+            var surveys = await service.GetSurveys();
+            if (surveys == null)
+                return new BadRequestObjectResult("Could not retrieve surveys.");
+            else return new OkObjectResult(surveys);
         }
     }
 }

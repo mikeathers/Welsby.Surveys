@@ -1,0 +1,8 @@
+C:\Development\Development\Projects\Welsby.Surveys\Welsby.Surveys.AppSettings\bin\Debug\netcoreapp2.2\Welsby.Surveys.AppSettings.deps.json
+C:\Development\Development\Projects\Welsby.Surveys\Welsby.Surveys.AppSettings\bin\Debug\netcoreapp2.2\Welsby.Surveys.AppSettings.dll
+C:\Development\Development\Projects\Welsby.Surveys\Welsby.Surveys.AppSettings\obj\Debug\netcoreapp2.2\Welsby.Surveys.AppSettings.csproj.CoreCompileInputs.cache
+C:\Development\Development\Projects\Welsby.Surveys\Welsby.Surveys.AppSettings\obj\Debug\netcoreapp2.2\Welsby.Surveys.AppSettings.AssemblyInfoInputs.cache
+C:\Development\Development\Projects\Welsby.Surveys\Welsby.Surveys.AppSettings\obj\Debug\netcoreapp2.2\Welsby.Surveys.AppSettings.AssemblyInfo.cs
+C:\Development\Development\Projects\Welsby.Surveys\Welsby.Surveys.AppSettings\bin\Debug\netcoreapp2.2\Welsby.Surveys.AppSettings.pdb
+C:\Development\Development\Projects\Welsby.Surveys\Welsby.Surveys.AppSettings\obj\Debug\netcoreapp2.2\Welsby.Surveys.AppSettings.dll
+C:\Development\Development\Projects\Welsby.Surveys\Welsby.Surveys.AppSettings\obj\Debug\netcoreapp2.2\Welsby.Surveys.AppSettings.pdb
