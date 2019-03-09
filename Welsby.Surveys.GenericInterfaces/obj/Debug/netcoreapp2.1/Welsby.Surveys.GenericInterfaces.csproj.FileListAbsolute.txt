@@ -6,3 +6,4 @@ C:\Development\Development\Projects\Welsby.Surveys\Welsby.Surveys.GenericInterfa
 C:\Development\Development\Projects\Welsby.Surveys\Welsby.Surveys.GenericInterfaces\obj\Debug\netcoreapp2.1\Welsby.Surveys.GenericInterfaces.AssemblyInfo.cs
 C:\Development\Development\Projects\Welsby.Surveys\Welsby.Surveys.GenericInterfaces\obj\Debug\netcoreapp2.1\Welsby.Surveys.GenericInterfaces.dll
 C:\Development\Development\Projects\Welsby.Surveys\Welsby.Surveys.GenericInterfaces\obj\Debug\netcoreapp2.1\Welsby.Surveys.GenericInterfaces.pdb
+C:\Development\Development\Projects\Welsby.Surveys\Welsby.Surveys.GenericInterfaces\obj\Debug\netcoreapp2.1\Welsby.Surveys.GenericInterfaces.csprojAssemblyReference.cache

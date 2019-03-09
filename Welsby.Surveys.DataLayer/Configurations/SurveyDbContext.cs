@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Logging;
 using Welsby.Surveys.DataLayer.Configurations.ModelConfigs;
 using Welsby.Surveys.DataLayer.Models;
 
@@ -6,10 +7,13 @@ namespace Welsby.Surveys.DataLayer.Configurations
 {
     public class SurveyDbContext : DbContext
     {
+        private readonly ILoggerFactory _loggerFactory;
+
         public SurveyDbContext() { }
 
-        public SurveyDbContext(DbContextOptions<SurveyDbContext> options) : base(options)
+        public SurveyDbContext(DbContextOptions<SurveyDbContext> options, ILoggerFactory loggerFactory = null) : base(options)
         {
+            _loggerFactory = loggerFactory;
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
@@ -18,6 +22,10 @@ namespace Welsby.Surveys.DataLayer.Configurations
             modelBuilder.ApplyConfiguration(new QuestionGroupConfig());
         }
 
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+            optionsBuilder.UseLoggerFactory(_loggerFactory);
+        }
 
 
         public DbSet<Survey> Surveys { get; set; }

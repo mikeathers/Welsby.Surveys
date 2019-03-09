@@ -1,0 +1,18 @@
+2019-03-03 19:27:06.674 +00:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost:56003/  0
+2019-03-03 19:27:06.674 +00:00 [Information] Request starting HTTP/1.1 GET http://localhost:44351/api/values  
+2019-03-03 19:27:06.720 +00:00 [Information] Request finished in 44.9577ms 200 
+2019-03-03 19:27:06.791 +00:00 [Information] Route matched with "{action = \"Get\", controller = \"Values\"}". Executing action "Welsby.Surveys.Api.Controllers.ValuesController.Get (Welsby.Surveys.Api)"
+2019-03-03 19:27:06.800 +00:00 [Information] Executing action method "Welsby.Surveys.Api.Controllers.ValuesController.Get (Welsby.Surveys.Api)" - Validation state: Valid
+2019-03-03 19:27:06.804 +00:00 [Information] Executed action method "Welsby.Surveys.Api.Controllers.ValuesController.Get (Welsby.Surveys.Api)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 0.2207ms.
+2019-03-03 19:27:06.812 +00:00 [Information] Executing ObjectResult, writing value of type '"System.String[]"'.
+2019-03-03 19:27:06.850 +00:00 [Information] Executed action "Welsby.Surveys.Api.Controllers.ValuesController.Get (Welsby.Surveys.Api)" in 53.8365ms
+2019-03-03 19:27:06.856 +00:00 [Information] Request finished in 186.9382ms 200 application/json; charset=utf-8
+2019-03-03 19:27:42.187 +00:00 [Information] Request starting HTTP/1.1 GET http://localhost:44351/api/values  
+2019-03-03 19:27:42.187 +00:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost:56003/  0
+2019-03-03 19:27:42.235 +00:00 [Information] Request finished in 50.0318ms 200 
+2019-03-03 19:27:42.309 +00:00 [Information] Route matched with "{action = \"Get\", controller = \"Values\"}". Executing action "Welsby.Surveys.Api.Controllers.ValuesController.Get (Welsby.Surveys.Api)"
+2019-03-03 19:27:42.319 +00:00 [Information] Executing action method "Welsby.Surveys.Api.Controllers.ValuesController.Get (Welsby.Surveys.Api)" - Validation state: Valid
+2019-03-03 19:27:42.324 +00:00 [Information] Executed action method "Welsby.Surveys.Api.Controllers.ValuesController.Get (Welsby.Surveys.Api)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 0.2541ms.
+2019-03-03 19:27:42.331 +00:00 [Information] Executing ObjectResult, writing value of type '"System.String[]"'.
+2019-03-03 19:27:42.377 +00:00 [Information] Executed action "Welsby.Surveys.Api.Controllers.ValuesController.Get (Welsby.Surveys.Api)" in 63.1166ms
+2019-03-03 19:27:42.384 +00:00 [Information] Request finished in 203.5712ms 200 application/json; charset=utf-8

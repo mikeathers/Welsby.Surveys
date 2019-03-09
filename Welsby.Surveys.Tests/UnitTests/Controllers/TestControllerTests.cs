@@ -24,6 +24,7 @@ namespace Welsby.Surveys.Tests.UnitTests.Controllers
             {
                 context.Database.EnsureCreated();
                 context.SeedDataBaseWithSurveys();
+
                 var controller = new TestController();
                 var surveys = EfTestData.CreateSurveys();
 
@@ -49,12 +50,13 @@ namespace Welsby.Surveys.Tests.UnitTests.Controllers
             {
                 context.Database.EnsureCreated();
                 context.SeedDataBaseWithSurveys();
+
                 var controller = new TestController();
+                var errorMessage = "Could not retrieve surveys.";
 
                 var mockService = new Mock<IListSurveysService>();
                 mockService.Setup(m => m.GetSurveys()).Returns((Task.FromResult((List<Survey>)null)));
 
-                var service = new ListSurveysService(context);
                 var result = await controller.GetListOfSurveys(mockService.Object);
 
                 result.ShouldNotBeNull();
@@ -62,7 +64,7 @@ namespace Welsby.Surveys.Tests.UnitTests.Controllers
 
                 var r = result as BadRequestObjectResult;
 
-                r.Value.ShouldEqual("Could not retrieve surveys.");
+                r.Value.ShouldEqual(errorMessage);
 
             }
         }
